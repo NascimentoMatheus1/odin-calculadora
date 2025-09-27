@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora{
+    width: 350px;
+    border: 1px solid black;
+}
+
+#calculadora > div{
+    box-sizing: border-box;
+}
+
+#tela{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.linha{
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    width: 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgb(192, 166, 166);
+}
