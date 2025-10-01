@@ -12,10 +12,13 @@ body{
 
 #calculadora{
     display: block;
-    width: 350px;
+    width: 500px;
     border: 1px solid black;
-    font-size: 25px;
-    padding: 3px;
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 20px;
+    background-color: #1b2133;
+    color: white;
 }
 
 #calculadora > div{
@@ -24,8 +27,8 @@ body{
 
 #tela{
     width: 100%;
-    height: 80px;
-    border: 1px solid black;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.144);
     padding: 10px;
 
     display: flex;
@@ -37,7 +40,7 @@ body{
 
 
 #tela-anterior{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .linha{
@@ -46,9 +49,9 @@ body{
 }
 
 .button {
-    width: 20px;
-    height: 30px;
-    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
     border-radius: 10px;
     padding: 5px;
     flex-grow: 1;
@@ -57,6 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #373945;
 }
 
 .button:hover{
