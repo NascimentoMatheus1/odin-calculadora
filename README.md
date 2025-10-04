@@ -2,7 +2,7 @@
 
 # [Visualização (Live Preview)](https://nascimentomatheus1.github.io/odin-calculadora/)
 
-## O que o usuario pode fazer:
+## O que o usuário pode fazer:
 
 ### - Somar
 
@@ -20,6 +20,6 @@
 
 ### - Adicionar Decimal
 
-### - Adicionar numeros negativos
+### - Adicionar números negativos
 
 ## Tarefa do The Odin Project: [Calculator - Foundations Course](https://www.theodinproject.com/lessons/foundations-calculator)
